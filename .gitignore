@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local databases and SQLite files
+data/*.db
+data/*.db-journal
+data/*.db-shm
+data/*.db-wal
+
+# Exported documents/reports
+exports/*.xlsx
+exports/*.docx
+exports/*.pdf
+
+# IDE and System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit local configurations
+.streamlit/
