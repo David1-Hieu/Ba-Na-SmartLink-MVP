@@ -117,8 +117,3 @@ python -m streamlit run app.py
 *Sau khi chạy thành công, trình duyệt web sẽ tự động mở giao diện ứng dụng tại địa chỉ mặc định `http://localhost:8501`.*
 
 ---
-
-git push -u origin main
-```
-
----
