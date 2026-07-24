@@ -118,28 +118,6 @@ python -m streamlit run app.py
 
 ---
 
-## Hướng Dẫn Đẩy Dự Án Lên GitHub
-
-Để đẩy mã nguồn này lên kho lưu trữ GitHub của bạn, vui lòng mở terminal tại thư mục này và thực hiện các lệnh sau:
-
-```bash
-# 1. Khởi tạo Git repository cục bộ (nếu chưa có)
-git init
-
-# 2. Thêm tất cả các file vào danh sách commit (ngoại trừ các file trong .gitignore)
-git add .
-
-# 3. Tạo commit đầu tiên
-git commit -m "First commit: Khởi tạo mã nguồn Banana SmartLink MVP"
-
-# 4. Tạo nhánh chính
-git branch -M main
-
-# 5. Liên kết với repository trên GitHub của bạn
-# (Thay thế đường dẫn bên dưới bằng đường dẫn repository thực tế của bạn)
-git remote add origin https://github.com/username/banana-smartlink-mvp.git
-
-# 6. Đẩy mã nguồn lên GitHub
 git push -u origin main
 ```
 
